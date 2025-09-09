@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+*{
+  font-family: "Outfit", sans-serif;
+
+}
+
+
+  
+@theme {
+  --color-primary: #0EA5E9;        /* Rich sky blue */
+  --color-primary-dull: #0284C7;   /* Slightly darker for hover/active states */
+  --color-light: #E0F2FE;          /* Soft, calm background that complements blue */
+  --color-borderColor: #7DD3FC;    /* Muted sky-blue border for subtle separation */
+  --color-accent: #0369A1;         /* Deep blue accent for buttons or highlights */
+  --color-text: #1E3A8A;           /* Dark blue text for premium readability */
+}
