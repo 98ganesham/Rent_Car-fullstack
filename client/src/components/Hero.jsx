@@ -91,7 +91,7 @@ const Hero = () => {
           <img
             src={assets.search_icon}
             alt="search"
-            className="brightness-300"
+            className="brightness-300 "
           />
           Search
         </motion.button>
@@ -103,7 +103,7 @@ const Hero = () => {
         transition={{ duration: 0.8, delay: 0.6 }}
         src={assets.main_car}
         alt="car"
-        className="max-h-74"
+        className="max-h-84"
       />
     </motion.div>
   );
